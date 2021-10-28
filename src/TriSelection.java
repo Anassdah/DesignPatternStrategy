@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class TriSelection implements Tri{
     @Override
     public void trier(ArrayList<Integer> numbers) {
-        System.out.println("Vous avez choisis le tri par selection");
+        System.out.println("les entiers ont été trier par selection");
         for (int i = 0; i < numbers.size() - 1; i++)
         {
             int index = i;
